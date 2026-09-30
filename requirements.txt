@@ -1,0 +1,4 @@
+jieba>=0.42
+# 说明：统计部分（OLS/HC1/Pearson）由 code/stats_utils.py 以纯标准库实现，
+# 无需安装 numpy/pandas/statsmodels/scipy，进一步降低复现门槛。
+

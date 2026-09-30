@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 数据大文件（真实语料不入库）
+data/raw/*.txt
+data/corpus/
+data/tokens/
+
+# 系统文件
+.DS_Store
+Thumbs.db

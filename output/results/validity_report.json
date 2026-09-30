@@ -1,0 +1,29 @@
+{
+  "n_obs": 180,
+  "n_firms": 60,
+  "convergent_validity": {
+    "pearson_r": 0.8938,
+    "p_value": 6.93e-64,
+    "note": "与替代口径（对数命中频数口径）的相关"
+  },
+  "discriminant_validity": {
+    "pearson_r_with_size": -0.0954,
+    "p_value": 0.2025,
+    "steiger_z_vs_convergent": 14.45,
+    "note": "与规模的低相关 + 与聚合口径的显著差异"
+  },
+  "conditional_means": {
+    "Q1(低)": 5.1627,
+    "Q2": 4.7167,
+    "Q3": 3.6664,
+    "Q4(高)": 3.0675
+  },
+  "ols": {
+    "beta_ShortTerm_Ratio": -0.4366,
+    "se_HC1": 0.0414,
+    "t_value": -10.555,
+    "p_value": 2.14e-20,
+    "r_squared": 0.3922,
+    "n": 180
+  }
+}
